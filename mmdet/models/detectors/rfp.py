@@ -3,7 +3,7 @@ import torch
 import torch.nn.functional as F
 
 from .. import builder
-from ..registry import DETECTORS
+from ..builder import DETECTORS
 from .htc import HybridTaskCascade
 
 
